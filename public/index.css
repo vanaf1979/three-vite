@@ -1,0 +1,9 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: hsl(0, 0%, 10%);
+}
+
+#root {
+    height: 100vh;
+}
