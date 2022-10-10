@@ -3,7 +3,7 @@
  */
 import {MathUtils} from 'three';
 
-const Cube = (props) => {
+const Cube = () => {
     return (
         <mesh scale={2.5} position={[0, 0, 0]} rotation={[MathUtils.degToRad(45), MathUtils.degToRad(45), 0]}>
             <boxGeometry attach="geometry"/>

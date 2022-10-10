@@ -9,7 +9,7 @@ import {OrbitControls} from '@react-three/drei'
  */
 import Cube from "./Cube.jsx";
 
-function App() {
+const App = () => {
     return (
         <Canvas>
             <color attach="background" args={[`hsl(0, 0%, 10%)`]}/>
